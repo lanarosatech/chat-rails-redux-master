@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby File.read(".ruby-version").strip
+# ruby File.read(".ruby-version").strip
 
 gem 'devise'
 gem 'figaro'
@@ -10,6 +10,7 @@ gem 'puma'
 gem 'rails', '5.1.4'
 gem 'redis'
 gem 'webpacker', '~> 3.0'
+gem 'nokogiri', '~> 1.8.5'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
